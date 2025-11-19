@@ -24,7 +24,14 @@ p{
     text-align: center;
     font-size: 15px;
 }
-button{
+.btn{
     font-size: medium;
     margin-left: 50px;
+}
+.head-sub{
+    color: white;
+    text-decoration: none;
+}
+.head-sub:hover{
+    color: orange;
 }

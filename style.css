@@ -1,15 +1,8 @@
-@media(max-width:600px){
-    body{
-        flex-direction: column;
-        align-items: center;
-    }
-}
 .head {
     height: 100px;
     background-color: rgb(58, 57, 55);
     padding-top: 15px;
     padding-left: 15px;
-    text-decoration: none;
 }
 .head-sub{
     color: white;
@@ -162,7 +155,9 @@ h3{
     font-size: 40px;
     margin-left: 20px;
 }
-
+.product-card:hover{
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -223,11 +218,11 @@ a:hover{
     color: red;
 }
 .title{
-    border: 2px solid black;
-    border-radius:20px;
+    /* border: 1px solid black; */
+    border-radius:20px; 
     margin-top: 40px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
 }
 .title:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.25);
 }

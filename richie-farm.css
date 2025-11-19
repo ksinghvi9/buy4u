@@ -4,6 +4,13 @@
     padding-top: 15px;
     padding-left: 15px;
 }
+.head-sub{
+    color: white;
+    text-decoration: none;
+}
+.head-sub:hover{
+    color: orange;
+}
 a{
     margin-right: 200px;
 }
@@ -24,7 +31,7 @@ p{
     text-align: center;
     font-size: 15px;
 }
-button{
+.btn{
     font-size: medium;
     margin-left: 70px;
 }
