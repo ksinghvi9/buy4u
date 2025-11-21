@@ -144,19 +144,6 @@ h3{
     background-color: rgb(11, 8, 3);
     color: white;
 }
-.product1{
-    background-image: url("laptop.jpg"); 
-    background-size: cover;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    padding: 20px;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100%; 
-}
 .sec-title {
     font-size: 40px;
     margin-left: 20px;
