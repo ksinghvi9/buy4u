@@ -28,6 +28,10 @@ p{
     font-size: medium;
     margin-left: 50px;
 }
+.btn:hover{
+    cursor: pointer;
+    background-color: orange;
+}
 .head-sub{
     color: white;
     text-decoration: none;

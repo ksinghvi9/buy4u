@@ -25,7 +25,7 @@ a{
     gap: 20px;
     padding: 20px;
     justify-items: center;
-    /* align-items: center; */
+
 }
 p{
     text-align: center;
@@ -35,7 +35,7 @@ p{
     font-size: medium;
     margin-left: 70px;
 }
-button:hover{
-    background-color: rgb(247, 167, 7);
-    color: black;
+.btn:hover{
+    cursor: pointer;
+    background-color: orange;
 }
