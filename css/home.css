@@ -1,0 +1,135 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 15px 20px;
+    background-color: rgb(58,57,55);
+}
+#logo{
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: white; /* Matches the color of the surrounding text */
+}
+#search-bar{
+    width: 250px;
+    height: 20px;
+}
+.cart-link{
+    position: relative;
+}
+.cart-count{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.msg{
+    text-align: center;
+}
+.deal-banner{
+    background-color: orange;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.deal-detail{
+    margin-left: 40px;
+}
+.img0{
+    border-radius: 100%;
+}
+#img1{
+    margin-left: 50px;
+}
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.product-container {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+
+  border-right: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+
+  display: flex;
+  flex-direction: column;
+}
+.product-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 180px;
+  margin-bottom: 20px;
+}
+.product-image {
+  /* Images will overflow their container by default. To
+    prevent this, we set max-width and max-height to 100%
+    so they stay inside their container. */
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.product-name {
+  height: 40px;
+  margin-bottom: 5px;
+}
+
+.product-rating-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.product-rating-stars {
+  width: 100px;
+  margin-right: 6px;
+}
+
+.product-rating-count {
+  color: rgb(1, 124, 182);
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.product-price {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.product-quantity-container {
+  margin-bottom: 17px;
+}
+
+.product-spacer {
+  flex: 1;
+}
+
+.added-to-cart {
+  color: rgb(6, 125, 98);
+  font-size: 16px;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+
+  /* At first, the "Added to cart" message will
+     be invisible. Use JavaScript to change the
+     opacity and make it visible. */
+  opacity: 0;
+}
+
+.added-to-cart img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.add-to-cart-button {
+  width: 100%;
+  padding: 8px;
+  border-radius: 50px;
+}
